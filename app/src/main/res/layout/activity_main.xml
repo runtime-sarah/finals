@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_tertiary90"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/browser"
+        android:onClick="browser"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:onClick="call"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <Button
+        android:id="@+id/next_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Next"
+        android:onClick="next"/>
+
+    <Button
+        android:id="@+id/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="small"
+        android:onClick="small"
+        />
+
+    <Button
+        android:id="@+id/large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Sarah"
+        />
+
+</LinearLayout>
